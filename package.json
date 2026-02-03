@@ -1,16 +1,28 @@
 {
   "name": "mongodb-hh-basic-query",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Clone repo นี้ลงไปบนเครื่อง - ตรวจสอบว่า MongoDB เปิดอยู่ - ให้ `cd` เข้ามาที่ Repo นี้ แล้วพิมพ์ Command `node app.js` ลงไปใน CLI",
   "main": "exercise-1.js",
   "type": "module",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^4.10.0"
-  }
+    "express": "^5.2.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wow2nov/mongo-hh-basic-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wow2nov/mongo-hh-basic-query/issues"
+  },
+  "homepage": "https://github.com/wow2nov/mongo-hh-basic-query#readme"
 }
